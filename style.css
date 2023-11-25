@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: gilroy;
+color: #fff;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(itlay.jpg);
+    /* background-image: url(https://i.pinimg.com/originals/58/d1/47/58d147efe1e0e51ad13f2539841ec069.jpg); */
+    background-size: cover;
+   
+}
+/* #overlay{
+    
+    width: 100%;
+    height: 100%;
+ background-color: #937aca56;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70px;
+    padding: 10px 40px;
+    position:absolute;
+    z-index: 999;
+}
+#nav-links{
+ 
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-links a{
+ 
+   font-weight: 600;
+   text-decoration: none;
+   letter-spacing: 1px;
+}
+nav h3{
+font-size: 50px;
+letter-spacing: 3px;
+}
+
+
+
+
+#left{
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 0px 70px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+   
+}
+.places{
+    
+    width: 100%;
+    border: 2px solid red;
+}
+
+
+.places h4{
+font-size: 20px;
+letter-spacing: 2px;
+border-bottom:2px solid #ffffffa8 ;
+display: inline-block;
+}
+.places p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.places:nth-child(2) h4{
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+#right{
+    width: 75%;
+    height: 100%;
+    /* background-color: rgba(93, 177, 202, 0.26); */
+    position: relative;
+}
+
+#right #text{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-0 , -50%);
+    /* border: 2px solid red; */
+    text-align: right;
+}
+#right #text h3{
+font-size: 30px;
+/* line-height: 1; */
+font-weight: 300;
+
+}
+#right #text h1{
+font-size: 120px;
+font-weight: 300;
+
+}
+#input-div{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid white;
+
+}
+#input-div i{
+   font-size: 20px;
+
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    background-color: transparent;
+    font-size: 25px;
+}
+input::placeholder{
+    color: #fff;
+}
+
+#copyright{
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    transform: translate(-0 , -50%);
+    font-size: 16px;
+}
